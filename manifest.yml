@@ -1,0 +1,9 @@
+applications:
+- name: hello_app
+disk_quota: 1024M
+memory: 128M
+host: hello-app-rfeather99
+domain: mybluemix.net
+command: rails server
+path: .
+instances: 1

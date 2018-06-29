@@ -1,3 +1,5 @@
+ruby '2.5.1'
+
 source 'https://rubygems.org'
 
 gem 'rails',        '5.1.6'
@@ -23,6 +25,7 @@ end
 
 group :production do
   gem 'ibm_db', '4.0.0'
+  gem 'sqlite3',      '1.3.13'
 end
 
 # Windows環境ではtzinfo-dataというgemを含める必要があります

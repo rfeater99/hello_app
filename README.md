@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## ibmcloudのdeployコマンド
+`ibmcloud app push hello-app  -b https://github.com/cloudfoundry/ruby-buildpack.git`
+
